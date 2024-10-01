@@ -25,3 +25,24 @@ body {
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+/*uma classe que vai servir para o site inteiro*/
+.container {
+  padding-inline: 32px; /*só vai mexer no padding das laterais*/
+  max-width: 1280px;
+  margin-inline: auto; /*só vai mexer nas margens das laterais*/
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
